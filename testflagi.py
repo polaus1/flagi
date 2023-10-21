@@ -270,7 +270,7 @@ def StartApp():
 start_button.clicked.connect(StartApp)
 def EndApp():
     end_text.setText('Ты прошел тест! Твой результат: ' + str(window.score)+'/30 вопросов')
-    if window.total == 2:
+    if window.total == 30:
         window.close()
         end_window.show()
 def CloseApp():
